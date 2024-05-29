@@ -167,7 +167,6 @@ WHERE nome_aluno = 'Laura Mendes'
 
 -- Dado o nome de um departamento, exibir o nome de todos os cursos associados a ele.
 SELECT * FROM cursos WHERE id_dpto = '3'
-
 --Dado o nome de uma disciplina, exibir a qual ou quais cursos ela pertence.
 SELECT * FROM cursos_disciplinas INNER JOIN disciplinas ON nome_disciplina= 'matematica'
 
